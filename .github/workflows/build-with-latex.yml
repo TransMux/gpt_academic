@@ -4,7 +4,9 @@ name: build-with-latex
 on:
   push:
     branches:
-      - 'master'
+      - 'mux/dev'
+
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
